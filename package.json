@@ -1,15 +1,28 @@
 {
-  "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "babel-loader": "^8.0.4",
-    "css-loader": "^1.0.0",
-    "style-loader": "^0.23.0",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.9"
-  },
-  "dependencies": {
-    "lodash": "^4.17.11"
-  }
+    "name": "webpack-react-typescript",
+    "description": "A sample app using Webpack, React and Typescript",
+    "version": "0.0.1",
+    "license": "MIT",
+    "author": {
+        "name": "Tommaso Visconti",
+        "email": "tommaso.visconti@gmail.com",
+        "url": "https://www.tommyblue.it"
+    },
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/tommyblue/webpack-react-typescript"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.1.2",
+        "@babel/preset-env": "^7.1.0",
+        "babel-loader": "^8.0.4",
+        "css-loader": "^1.0.0",
+        "style-loader": "^0.23.0",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.9"
+    },
+    "dependencies": {
+        "lodash": "^4.17.11"
+    }
 }
