@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/Cellar/node/10.6.0/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js add -D webpack webpack-cli webpack-dev-server
+
+PATH: 
+  /Users/tommyblue/.rbenv/shims:/usr/local/Cellar/pyenv-virtualenv/1.1.3/shims:/Users/tommyblue/.pyenv/shims:/usr/local/bin:/usr/local/opt/node@4/bin:/Users/tommyblue/projects/devtools:/Users/tommyblue/.yarn/bin:/Users/tommyblue/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/gettext/bin:/Applications/Postgres.app/Contents/Versions/9.6/bin/:/usr/local/opt/go/libexec/bin:/Users/tommyblue/src/go/bin:/Users/tommyblue/Library/Android/sdk/tools:/Users/tommyblue/Library/Android/sdk/platform-tools:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:/Users/tommyblue/.pyenv/bin:/Users/tommyblue/.cargo/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.6.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/tommyblue/src/webpack-react-typescript/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:109:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
