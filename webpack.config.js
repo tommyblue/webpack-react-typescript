@@ -1,13 +1,13 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/index.ts',
+    entry: './src/index.tsx',
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist')
     },
     resolve: {
-        extensions: [".ts", ".js"]
+        extensions: [".ts", ".tsx", ".js"]
     },
     module: {
         rules: [
@@ -23,7 +23,7 @@ module.exports = {
             },
             { test: /\.css$/, use: ['style-loader', 'css-loader'] },
             { test: /\.scss$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
-            { test: /\.ts$/, loader: "awesome-typescript-loader" },
+            { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
         ]
     },
 };
